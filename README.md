@@ -1,16 +1,28 @@
-## Hi there 👋
+# Hello, I'm Kxeuz from Ontario, Canada 👋
 
-<!--
-**kxeuz1337/kxeuz1337** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## About Me
 
-Here are some ideas to get you started:
+```py
+class Coding:
+    def __init__(self):
+        self.expert = []
+        self.interests = {}
+        self.likes_to_do = {}
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    def languages(self):
+        self.expert = ["Python", "HTML", "CSS", "Go", "JavaScript"]
+
+    def interests(self):
+        self.environment = ["VSCode"]
+        self.specialities = ["Data", "Scraping"]
+
+    def likes_to_do(self):
+        self.discord = ["GrabToken", "Raiding", "Troll"]
+
+# Creating an instance to describe myself
+me = Coding()
+me.languages()
+me.interests()
+me.likes_to_do()
+
+# Feel free to explore my repositories and projects!
